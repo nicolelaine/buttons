@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    font-size: 2em;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: lightsalmon;
+    background-color: black;
+}
+
+button:hover {
+    color: lime;
+    border: 1px solid lime;
+    box-shadow: 5px 15px 33px -10px lime;
+    position: relative;
+    bottom: 5px;
+}
